@@ -1,0 +1,18 @@
+{
+  "phone": {
+    "label": "Số điện thoại",
+    "content": "Đội ngũ ICAN sử dụng số điện thoại để hỗ trợ bạn trong quá trình học. Thông tin của bạn sẽ được bảo mật."
+  },
+  "address": {
+    "label": "Nơi sống",
+    "content": "Đội ngũ ICAN tối ưu hóa nội dung học tập để phù hợp nhất với bạn dựa vào thông tin địa phương & trường học của bạn. Thông tin của bạn sẽ được bảo mật."
+  },
+  "dateOfBirth": {
+    "label": "Ngày sinh",
+    "content": "Đội ngũ ICAN sẽ gửi đến bạn các ưu đãi hấp dẫn trong tháng sinh nhật. Thông tin của bạn sẽ được bảo mật."
+  },
+  "school": {
+    "label": "Trường",
+    "content": "Đội ngũ ICAN tối ưu hóa nội dung học tập để phù hợp nhất với bạn dựa vào thông tin địa phương & trường học của bạn. Thông tin của bạn sẽ được bảo mật."
+  }
+}

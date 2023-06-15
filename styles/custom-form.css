@@ -1,0 +1,30 @@
+.Calendar {
+  border: 1px solid #5551ff;
+  box-shadow: 0px 1px 4px rgb(0 0 0 / 10%);
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+
+.Calendar__day,
+.Calendar__monthSelector,
+.Calendar__yearSelector {
+  border-radius: 8px !important;
+  font-weight: 500 !important;
+}
+.Calendar__day.-today:not(.-selectedStart):not(.-selectedEnd):not(.-selectedBetween) {
+  color: var(--cl-color-primary) !important;
+}
+.Calendar__day.-today::after {
+  display: none !important;
+}
+
+.DatePicker {
+  width: 100%;
+  max-width: 400px;
+  min-width: 160px;
+  z-index: 10 !important;
+}
+.DatePicker .Calendar__monthText {
+  white-space: nowrap;
+}
+

@@ -1,0 +1,14 @@
+version: '3'
+networks:
+  general:
+    external: true
+    
+services:
+  frontend:
+    image: 'ghcr.io/tiennm-galaxt/adl-frontend:$FE_VERSION'
+    environment:
+      - MONGO_HOST=mongodb
+    networks:
+      - general
+    ports:
+      - 3000:3000
